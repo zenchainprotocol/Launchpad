@@ -22,7 +22,7 @@ cd ..
 echo ✰ Download genesis and add persistent peers
 wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json
 cp -f ./genesis.json ~/.zenchain/config/genesis.json 
-sed -i 's/persistent_peers = ""/persistent_peers = "be83b75c88a0ba30bfed072fd805c10ab3dac8ac@45.77.251.139:26656"/g' ~/.zenchain/config/config.toml
+sed -i 's/persistent_peers = ""/persistent_peers = "3a74650c63fd5acca3ad4bf6cb21859ba6abc0ba@149.28.136.177:26656"/g' ~/.zenchain/config/config.toml
 
 echo ✰ Start your node
 ~/zenchaind start
