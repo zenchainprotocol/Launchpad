@@ -39,14 +39,12 @@ sed -i 's/persistent_peers = ""/persistent_peers = "78f903fd4bd8c110ffbe05e1e210
 echo End step 4: Add persistent peers successfully
 echo ✰✰✰✰ DONE ✰✰✰✰✰
 
-echo ╔═════════  ZENCHAIN-Lotus-testnet ══════╗
-echo ║                                        ║
-echo ║ ZenChain app has been installed!       ║
-echo ║                                        ║
-echo ║ You can start zenchain with command    ║
-echo ║ zenchaind start                        ║
-echo ╚════════════════════════════════════════╝
-echo
+echo ═════════  ZENCHAIN-Lotus-testnet ══════
+echo ZenChain app has been installed!
+echo  You can start zenchain with command   
+echo  zenchaind start                       
+echo ═══════════════════════════════════════
+echo  
 echo ║ <Hint>
 echo ║ Hint! If you want to run in background
 echo ║ You can using tmux to run zenchain 
