@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-05-21T02:54:50.54801767Z",
+  "genesis_time": "2021-05-21T16:00:00Z",
   "chain_id": "lotus-testnet",
   "initial_height": "1",
   "consensus_params": {
@@ -14,9 +14,7 @@
       "max_bytes": "1048576"
     },
     "validator": {
-      "pub_key_types": [
-        "ed25519"
-      ]
+      "pub_key_types": ["ed25519"]
     },
     "version": {}
   },
@@ -4409,10 +4407,7 @@
         "clients_consensus": [],
         "clients_metadata": [],
         "params": {
-          "allowed_clients": [
-            "06-solomachine",
-            "07-tendermint"
-          ]
+          "allowed_clients": ["06-solomachine", "07-tendermint"]
         },
         "create_localhost": false,
         "next_client_sequence": "0"
