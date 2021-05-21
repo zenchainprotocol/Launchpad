@@ -45,8 +45,8 @@ echo  You can start zenchain with command
 echo  zenchaind start                       
 echo ═══════════════════════════════════════
 echo  
-echo ║ <Hint>
-echo ║ Hint! If you want to run in background
+echo ║ Hint
+echo ║ If you want to run in background
 echo ║ You can using tmux to run zenchain 
 echo ║ Please visit:
 echo ║ https://linuxize.com/post/getting-started-with-tmux/
